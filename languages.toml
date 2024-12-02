@@ -1,3 +1,5 @@
+# https://github.com/helix-editor/helix/wiki/Language-Server-Configurations
+
 [[language]]
 name = "go"
 auto-format = true
