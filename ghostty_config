@@ -1,0 +1,10 @@
+working-directory = ~/Documents/
+font-family = Monaco
+font-thicken = true
+font-thicken-strength = 100
+theme = zenwritten_light
+alpha-blending = native
+cursor-style = bar
+cursor-style-blink = true
+mouse-hide-while-typing = true
+title = "0x53c"
