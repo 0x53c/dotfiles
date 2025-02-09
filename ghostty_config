@@ -1,3 +1,6 @@
+# This config lives at
+# $HOME/Library/Application\ Support/com.mitchellh.ghostty/
+
 working-directory = ~/Documents/
 font-family = Monaco
 font-thicken = true
