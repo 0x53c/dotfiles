@@ -1,0 +1,67 @@
+theme = "tokyonight_day"
+
+[editor]
+line-number = "relative"
+cursorline = true
+cursorcolumn = true
+auto-completion = true
+auto-format = true
+completion-timeout = 250
+preview-completion-insert = true
+completion-trigger-len = 2
+completion-replace = false
+auto-info = true
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+enable = true
+display-messages = true
+auto-signature-help = true
+display-inlay-hints = true
+display-signature-help-docs = true
+snippets = true
+goto-reference-include-declaration = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+follow-symlinks = true
+deduplicate-links = true
+parents = true
+ignore = true
+git-ignore = true
+git-global = true
+git-exclude = true
+
+[editor.auto-pairs]
+'(' = ')'
+'{' = '}'
+'[' = ']'
+'"' = '"'
+'`' = '`'
+'<' = '>'
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.gutters.line-numbers]
+min-width = 1
+
+[editor.soft-wrap]
+enable = true
+max-wrap = 25
+max-indent-retain = 0
